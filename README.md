@@ -24,7 +24,7 @@ pkg update && pkg upgrade
 pkg install python git
 
 # Clone the repository
-git clone https://github.com/yourusername/xss-scanner.git
+git clone https://github.com/LIMBO-2018/xss-scanner.git
 cd xss-scanner
 
 # Install the tool
@@ -55,7 +55,7 @@ pip install --no-binary :all: lxml
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/xss-scanner.git
+git clone https://github.com/LIMBO-2018/xss-scanner.git
 cd xss-scanner
 
 # Install the tool
