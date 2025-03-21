@@ -31,7 +31,26 @@ cd xss-scanner
 chmod +x install.sh
 ./install.sh
 ```
+###If you get an error while downloading lxml, try this
+### Step 1: Update Termux repositories
 
+```bash
+termux-change-repo
+```
+Select "Mirror group: Rotate between several mirrors (recommended)" when prompted.
+
+### Step 2: Update packages and install dependencies
+
+```bash
+pkg update && pkg upgrade -y
+pkg install python libxml2 libxslt clang -y
+```
+
+### Step 3: Install lxml properly
+
+```bash
+pip install --no-binary :all: lxml
+```
 ### On Other Linux Systems
 
 ```bash
