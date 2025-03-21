@@ -27,7 +27,7 @@ class Banner:
 {Fore.CYAN}[+] {Fore.WHITE}A professional Cross-Site Scripting (XSS) vulnerability scanner
 {Fore.CYAN}[+] {Fore.WHITE}Version: 1.0.0
 {Fore.CYAN}[+] {Fore.WHITE}Designed for security professionals and penetration testers
-{Fore.CYAN}[+] {Fore.WHITE}Works on Termux without root access
+{Fore.CYAN}[+] {Fore.WHITE}Created By LIMBO-2018(😈)
         """
         print(banner)
 
